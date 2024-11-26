@@ -35,7 +35,9 @@ export class Font {
       if (file && file.size > 0) {
         return [file.name, await file.arrayBuffer()];
       } else {
-        const font_filename = `font_${reader.header.config.fontVariant.toLowerCase()}${isHd ? "_hd" : ""}.png`;
+        const font_variant = reader.header.config.fontVariant.toLowerCase();
+        const font_name = font_variant.length !== 0 ? `font_${font_variant}` : "font";
+        const font_filename = `${font_name}${isHd ? "_hd" : ""}.png`;
         return ["font_filename", await fetch(`https://raw.githubusercontent.com/fpv-wtf/msp-osd/main/fonts/${font_filename}`).then((response) => response.arrayBuffer())];
       }
     })(file);
