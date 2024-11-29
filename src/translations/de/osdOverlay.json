@@ -17,15 +17,15 @@
   "fileDropFontHd2": "Schriftart 2 (HD)",
   "fileDropFontSd1": "Font 1 (SD)",
   "fileDropFontSd2": "Schriftart 2 (SD)",
-  "fileDropFontHd": "Custom HD Font (optional)",
-  "fileDropFontSd": "Custom SD Font (optional)",
+  "fileDropFontHd": "Benutzerdefinierte HD-Schriftart (optional)",
+  "fileDropFontSd": "Benutzerdefinierte SD-Schriftart (optional)",
   "fileDropHelp": "Du kannst deine Dateien hier her ziehen oder diese einzeln auswählen.",
   "fileDropOsd": "OSD",
   "fileDropSrt": "SRT (optional)",
   "fileDropVideo": "Video",
   "noteConfigLink": "Konfiguriere dies im Paketmanager.",
   "noteHeader": "OSD-Aufnahme ist eine für die Brille wählbare Option.",
-  "noteWarning": "The video file must either come directly from the goggles, or have only modifications that don't change the length of the video. Altering the aspect ratio, stabilization, etc are supported.",
+  "noteWarning": "Die Videodatei muss entweder direkt von der Brille stammen oder darf nur Änderungen enthalten, die die Länge des Videos nicht verändern. Die Änderung des Seitenverhältnisses, Stabilisierung usw. werden unterstützt.",
   "processing": "Verarbeite...",
   "start": "Starten"
 }
